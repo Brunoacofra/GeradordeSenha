@@ -20,10 +20,10 @@ public class Main {
                     System.out.println("Sua senha: "+gerar.gerar(tam));
                     break;
                 }else if(escolha == 2){
-                    gerar.gerarLetras();
+                    System.out.println("Sua senha : "+gerar.gerarLetras(tam));
                     break;
                 }else if (escolha == 3){
-                    gerar.gerarespeciais();
+                    System.out.println("Sua senha : "+gerar.gerarespeciais(tam));
                     break;
                 }
             }
